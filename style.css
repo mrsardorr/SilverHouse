@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 1110px;
+    margin: auto;
+    margin-top: 50px;
+}
+header .icon{
+    display: block;
+    margin: auto;
+}
+header .menu {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+header ul {
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: center;
+}
+header ul li{
+    padding-left: 46px;
+}
+header ul li a:hover{
+    border-bottom: 2px solid  #4581b7;
+    color: #4581b7;
+}
+header ul li a{
+    font-size: 18px;
+    line-height: 27px;
+    color: #bab9b9;
+    padding-bottom: 14px;
+    transition: 0.2s;
+}
+main{
+    width: 1110px;
+    margin: auto;
+    margin-top: 50px;
+}
+main .oboy{
+    height: 450px;
+    width: 100%;
+}
+main .two{
+    margin-top: 30px;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: space-between;
+}
+main .first{
+    background-color: #f0f0f0;
+    width: 730px;
+    height: 100%;
+    padding: 49px 90px 63px 40px;
+}
+main .first h3{
+    color: #4581b7;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: bold;
+}
+main .first p{
+    color: #7f7f7f;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 29px;
+}
+main .second {
+    background-color: #f0f0f0;
+    width: 350px;
+    height: 100%;
+    padding: 49px 90px 63px 40px;
+}
+main .second h3{
+    color: #4581b7;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+main .second p{
+    color: #7f7f7f;
+    font-size: 16px;
+    line-height: 27px;
+}
+main .second p:nth-child(2){
+    margin-bottom: 50px;
+}
+main .second p:nth-child(3){
+    margin-bottom: 50px;
+}
+footer{
+    height: 150px;
+    width: 1110px;
+    margin: auto;
+    background-color: #f0f0f0;
+    margin-top: 30px;
+    padding: 16px 41px 14px 41px;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer .last h2{
+    float: right;
+    color: #808080;
+    font-size: 25px;
+    line-height: 27px;
+    font-weight: bold;
+}
+footer .last h3{
+    font-size: 16px;
+    color: #808080;
+    line-height: 27px;
+    font-weight: normal;
+    margin-top: 24px;
+}
